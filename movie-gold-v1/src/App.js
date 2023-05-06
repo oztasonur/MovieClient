@@ -7,7 +7,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./components/home/Home";
 
 function App() {
-  const [movies, setMovies] = useState();
+  const [movies, setMovies] = useState([]);
 
   const getMovies = async () => {
     try {
